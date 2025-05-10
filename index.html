@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قهوة رفاق</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/80" alt="شعار قهوة رفاق" class="logo">
+        <h1>قهوة رفاق</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">القائمة</a></li>
+            <li><a href="#cart">عربة التسوق</a></li>
+            <li><a href="#locations">الفروع</a></li>
+        </ul>
+    </nav>
+
+    <section id="menu">
+        <h2 style="text-align: center; margin: 20px 0;">قائمتنا</h2>
+        <div class="products"></div>
+    </section>
+
+    <section id="cart" style="background: white; margin: 20px; padding: 20px; border-radius: 10px;">
+        <h2 style="text-align: center;">عربة التسوق</h2>
+        <div class="cart-items"></div>
+        <div class="total">المجموع: <span>0.00</span> ر.س</div>
+        <button class="checkout">إتمام الطلب</button>
+    </section>
+
+    <section id="locations" class="branches-section">
+        <h2 style="text-align: center;">فروعنا</h2>
+        <div class="branches-container">
+            <!-- فرع سكاكا -->
+            <div class="branch sakaka">
+                <div class="branch-header">
+                    <h3><i class="fas fa-map-marker-alt"></i> فرع سكاكا</h3>
+                    <div class="branch-tag" style="background-color:#ff6b6b;color:white">الفرع الرئيسي</div>
+                </div>
+                <div class="branch-map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.798272246907!2d40.204225!3d30.369944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDIyJzExLjgiTiA0MMKwMTInMTUuMiJF!5e0!3m2!1sen!2ssa!4v1620000000000!5m2!1sen!2ssa"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="branch-info">
+                    <p><i class="fas fa-location-dot"></i> حي الجامعة، سكاكا 72341</p>
+                    <p><i class="fas fa-clock"></i> 7:00 ص - 12:00 ص</p>
+                    <p><i class="fas fa-phone"></i> 0501234567</p>
+                    <div class="branch-features">
+                        <span><i class="fas fa-wifi"></i> واي فاي مجاني</span>
+                        <span><i class="fas fa-book-open"></i> ركن قراءة</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- فرع قارا -->
+            <div class="branch qura">
+                <div class="branch-header">
+                    <h3><i class="fas fa-map-marker-alt"></i> فرع قارا</h3>
+                    <div class="branch-tag" style="background-color:#333;color:#ff6b6b">فرع جديد</div>
+                </div>
+                <div class="branch-map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.798272246907!2d40.204225!3d30.369944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDIyJzExLjgiTiA0MMKwMTInMTUuMiJF!5e0!3m2!1sen!2ssa!4v1620000000000!5m2!1sen!2ssa"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="branch-info">
+                    <p><i class="fas fa-location-dot"></i> حي النخيل، قارا 72345</p>
+                    <p><i class="fas fa-clock"></i> 8:00 ص - 11:00 م</p>
+                    <p><i class="fas fa-phone"></i> 0507654321</p>
+                    <div class="branch-features">
+                        <span><i class="fas fa-umbrella-beach"></i> منطقة خارجية</span>
+                        <span><i class="fas fa-parking"></i> مواقف مجانية</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media" style="margin-bottom: 10px;">
+            <a href="#" style="color: white; margin: 0 10px;"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" style="color: white; margin: 0 10px;"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <p>© 2023 قهوة رفاق. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
